@@ -6,9 +6,13 @@ Resources for setting up Linux environment.
 
 `yay -S slack-desktop notion-app spotify visual-studio-code-bin`
 
+### Emoji Rofi
+Keybind already setup as win + . in i3config.
+https://github.com/Mange/rofi-emoji
 
 ## Download i3 Endevour Config
 `curl https://raw.githubusercontent.com/qudo-code/.config/main/i3-config-endevour --output .config/i3/config`
 
 ## Download i3 Blocks Endevour Config
 `curl https://raw.githubusercontent.com/qudo-code/.config/main/i3blocks-endevour --output .config/i3/i3locks.conf`
+
