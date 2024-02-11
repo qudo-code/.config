@@ -84,7 +84,7 @@ Removed all arrow key actions as they conflict with VSCode bindings.
 # Pressing right will grow the window’s width.
 # Pressing up will shrink the window’s height.
 # Pressing down will grow the window’s height.
-
+```
 ### Splic Horizontal w/C
 `bindsym $mod+c split h`
 ### Wallpaper
