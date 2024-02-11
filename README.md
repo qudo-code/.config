@@ -89,3 +89,10 @@ Removed all arrow key actions as they conflict with VSCode bindings.
 `bindsym $mod+c split h`
 ### Wallpaper
 `exec --no-startup-id sleep 1 && feh --bg-fill /home/qudo/Pictures/wallpaper.jpg`
+# VSCode Keybinds
+Go to File -> Preferences -> Keyboard Shortcuts.
+
+_*Note:* Remove arrow key bingings in i3 config for these to work._
+
+- Copy Line Down/Up: `Shift + Alt + Down/Up`
+- Move Line Down/Up: `Alt + Down/Up`
