@@ -1,6 +1,8 @@
 bindsym $mod+Shift+q kill
 bindsym Print exec flameshot gui
 bindsym $mod+q exec --no-startup-id brave
+bindsym $mod+period exec rofi -modi emoji -show emoji
+
 # exec --no-startup-id ~/set_once.sh
 # This file is a modified version based on default i3-config-wizard config
 # source is available here:
@@ -138,10 +140,10 @@ bindsym $mod+Shift+Tab workspace prev
 # bindcode $mod+Shift+88 	 move container to workspace  $ws2
 # bindcode $mod+Shift+89 	 move container to workspace  $ws3
 # bindcode $mod+Shift+83 	 move container to workspace  $ws4
-# bindcode $mod+Shift+84 	 move container to workspace  $ws5
 # bindcode $mod+Shift+85 	 move container to workspace  $ws6
 # bindcode $mod+Shift+79 	 move container to workspace  $ws7
 # bindcode $mod+Shift+80 	 move container to workspace  $ws8
+# bindcode $mod+Shift+84 	 move container to workspace  $ws5
 # bindcode $mod+Shift+81 	 move container to workspace  $ws9
 # bindcode $mod+Shift+90 	 move container to workspace  $ws10
 
@@ -159,10 +161,10 @@ mode "resize" {
         bindsym l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+        # bindsym Left resize shrink width 10 px or 10 ppt
+        # bindsym Down resize grow height 10 px or 10 ppt
+        # bindsym Up resize shrink height 10 px or 10 ppt
+        # bindsym Right resize grow width 10 px or 10 ppt
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
@@ -170,7 +172,7 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
-bindsym $mod+r mode "resize"
+ 
 
 ######################################
 # keybindings for different actions: #
@@ -217,10 +219,10 @@ bindsym $mod+k focus up
 bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+# bindsym $mod+Left focus left
+# bindsym $mod+Down focus down
+# bindsym $mod+Up focus up
+# bindsym $mod+Right focus right
 
 # move focused window
 bindsym $mod+Shift+h move left
@@ -229,10 +231,10 @@ bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
+# bindsym $mod+Shift+Left move left
+# bindsym $mod+Shift+Down move down
+# bindsym $mod+Shift+Up move up
+# bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
 bindsym $mod+c split h
@@ -351,9 +353,9 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 # xcompmgr: https://wiki.archlinux.org/title/Xcompmgr
 # manpage: https://man.archlinux.org/man/xcompmgr.1.en
 # install xcompmgr package to use it (yay -S xcompmgr)
-exec --no-startup-id xcompmgr -C -n &
+# exec --no-startup-id xcompmgr -C -n &
 # or an more specialized config like this:
-#exec --no-startup-id xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
+# exec --no-startup-id xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
 #
 # or:
 #
@@ -401,7 +403,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-exec --no-startup-id sleep 1 && feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png
+exec --no-startup-id sleep 1 && feh --bg-fill /home/qudo/Pictures/wallpaper.jpg
 
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
