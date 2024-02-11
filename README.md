@@ -8,7 +8,7 @@ Resources for setting up Linux environment.
 
 ## I3 Mods
 ### Extra Keybinds
-```js
+```
 # Killing apps requires an extra key (Shift)
 bindsym $mod+Shift+q kill
 
