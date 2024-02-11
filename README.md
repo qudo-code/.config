@@ -2,7 +2,7 @@
 Resources for setting up Linux environment.
 
 ## Install Core Apps
-`sudo -S pacman discord telegram-desktop signal-desktop xclip rofi-emoji`
+`sudo -S pacman discord telegram-desktop signal-desktop xclip rofi-emoji flameshot`
 
 `yay -S slack-desktop notion-app spotify visual-studio-code-bin`
 
