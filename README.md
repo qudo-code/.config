@@ -6,12 +6,6 @@ Resources for setting up Linux environment.
 
 `yay -S slack-desktop notion-app spotify visual-studio-code-bin`
 
-## Download i3 Endevour Config
-`curl https://raw.githubusercontent.com/qudo-code/.config/main/i3-config-endevour --output .config/i3/config`
-
-## Download i3 Blocks Endevour Config
-`curl https://raw.githubusercontent.com/qudo-code/.config/main/i3blocks-endevour --output .config/i3/i3locks.conf`
-
 ## I3 Mods
 ### Extra Keybinds
 ```js
@@ -96,6 +90,11 @@ Removed all arrow key actions as they conflict with VSCode bindings.
 `bindsym $mod+c split h`
 ### Wallpaper Location
 `exec --no-startup-id sleep 1 && feh --bg-fill /home/qudo/Pictures/wallpaper.jpg`
+## Download i3 Endevour Config
+`curl https://raw.githubusercontent.com/qudo-code/.config/main/i3-config-endevour --output .config/i3/config`
+
+## Download i3 Blocks Endevour Config
+`curl https://raw.githubusercontent.com/qudo-code/.config/main/i3blocks-endevour --output .config/i3/i3locks.conf`
 # VSCode Keybinds
 Go to File -> Preferences -> Keyboard Shortcuts.
 
