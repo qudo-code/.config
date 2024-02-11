@@ -85,9 +85,9 @@ Removed all arrow key actions as they conflict with VSCode bindings.
 # Pressing up will shrink the window’s height.
 # Pressing down will grow the window’s height.
 ```
-### Splic Horizontal w/C
+### Split Horizontal w/C
 `bindsym $mod+c split h`
-### Wallpaper
+### Wallpaper Location
 `exec --no-startup-id sleep 1 && feh --bg-fill /home/qudo/Pictures/wallpaper.jpg`
 # VSCode Keybinds
 Go to File -> Preferences -> Keyboard Shortcuts.
