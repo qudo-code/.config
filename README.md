@@ -65,6 +65,26 @@ bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 ```
+### Removed Arrow Keys
+Removed all arrow key actions as they conflict with VSCode bindings.
+```
+# bindsym $mod+Left focus left
+# bindsym $mod+Down focus down
+# bindsym $mod+Up focus up
+# bindsym $mod+Right focus right
+# bindsym $mod+Shift+Left move left
+# bindsym $mod+Shift+Down move down
+# bindsym $mod+Shift+Up move up
+# bindsym $mod+Shift+Right move right
+# bindsym Left resize shrink width 10 px or 10 ppt
+# bindsym Down resize grow height 10 px or 10 ppt
+# bindsym Up resize shrink height 10 px or 10 ppt
+# bindsym Right resize grow width 10 px or 10 ppt
+# Pressing left will shrink the window’s width.
+# Pressing right will grow the window’s width.
+# Pressing up will shrink the window’s height.
+# Pressing down will grow the window’s height.
+
 ### Splic Horizontal w/C
 `bindsym $mod+c split h`
 ### Wallpaper
