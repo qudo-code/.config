@@ -15,9 +15,16 @@ Resources for setting up Linux environment.
 ## I3 Mods
 ### Extra Keybinds
 ```js
+# Killing apps requires an extra key (Shift)
 bindsym $mod+Shift+q kill
+
+# Screenshots with flameshot
 bindsym Print exec flameshot gui
+
+# Quick browser access
 bindsym $mod+q exec --no-startup-id brave
+
+# Emoji keyboard in rofi
 bindsym $mod+period exec rofi -modi emoji -show emoji
 ```
 ### Mod Key -> Alt
