@@ -2,9 +2,9 @@
 Resources for setting up Linux environment.
 
 ## Install Core Apps
-`sudo pacman -S discord telegram-desktop signal-desktop xclip rofi-emoji flameshot`
+`sudo pacman -S discord telegram-desktop signal-desktop xclip rofi-emoji flameshot vim`
 
-`yay -S slack-desktop notion-app spotify visual-studio-code-bin`
+`yay -S slack-desktop notion-app visual-studio-code-bin brave-bin`
 
 ## I3 Mods
 ### Extra Keybinds
@@ -91,3 +91,7 @@ _*Note:* Remove arrow key bingings in i3 config for these to work._
 
 - Copy Line Down/Up: `Shift + Alt + Down/Up`
 - Move Line Down/Up: `Alt + Down/Up`
+
+# Thinkpad
+## Backlight
+`alias light="sudo vim /sys/class/backlight/intel_backlight/brightness"`
