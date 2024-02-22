@@ -95,3 +95,10 @@ _*Note:* Remove arrow key bingings in i3 config for these to work._
 # Thinkpad
 ## Backlight
 `alias light="sudo vim /sys/class/backlight/intel_backlight/brightness"`
+
+## Bluetooth 
+```
+sudo pacman -S bluez blueman
+sudo systemctl enable bluetooth.service
+sudo systemctl restart bluetooth.service
+```
