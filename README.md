@@ -2,9 +2,18 @@
 Resources for setting up Linux environment.
 
 ## Install Core Apps
-`sudo pacman -S discord telegram-desktop signal-desktop xclip rofi-emoji flameshot vim`
+`sudo pacman -S discord telegram-desktop signal-desktop xclip rofi-emoji flameshot vim gnupg python-gnupg`
 
-`yay -S slack-desktop notion-app visual-studio-code-bin brave-bin`
+`yay -S slack-desktop notion-app visual-studio-code-bin brave-bin protonvpn protonvpn-gui`
+
+### Proton VPN
+https://tutorialforlinux.com/2022/01/17/protonvpn-arch-linux-installation-step-by-step-guide/2/
+#### Install (included in core apps above)
+- `sudo pacman -Sy gnupg python-gnupg`
+- `yay -Sy --noconfirm protonvpn protonvpn-gui`
+#### Run
+- Lauch Proton with app launcher
+- When it asks for a password, you can get that by logging into ProtonVPN -> Account, and copying your generated password from there.
 
 ## I3 Mods
 ### Extra Keybinds
