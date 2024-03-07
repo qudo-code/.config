@@ -14,6 +14,8 @@ https://tutorialforlinux.com/2022/01/17/protonvpn-arch-linux-installation-step-b
 #### Run
 - Lauch Proton with app launcher
 - When it asks for a password, you can get that by logging into ProtonVPN -> Account, and copying your generated password from there.
+#### Fixes
+- No internet after install? This helped, specifically deleting the pvpn-leak device: https://askubuntu.com/questions/1319033/internet-stops-working-after-installing-protonvpn
 
 ## I3 Mods
 ### Extra Keybinds
