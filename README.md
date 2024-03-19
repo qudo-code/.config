@@ -6,16 +6,14 @@ Resources for setting up Linux environment.
 
 `yay -S slack-desktop notion-app visual-studio-code-bin brave-bin protonvpn protonvpn-gui`
 
-### Proton VPN
-https://tutorialforlinux.com/2022/01/17/protonvpn-arch-linux-installation-step-by-step-guide/2/
-#### Install (included in core apps above)
-- `sudo pacman -Sy gnupg python-gnupg`
-- `yay -Sy --noconfirm protonvpn protonvpn-gui`
-#### Run
-- Lauch Proton with app launcher
-- When it asks for a password, you can get that by logging into ProtonVPN -> Account, and copying your generated password from there.
-#### Fixes
-- No internet after install? This helped, specifically deleting the pvpn-leak device: https://askubuntu.com/questions/1319033/internet-stops-working-after-installing-protonvpn
+### Nord VPN
+1. `yay -S nordvpn-bin`
+2. `sudo systemctl enable nordvpnd.service`
+3. `sudo systemctl start nordvpnd.service`
+4. `sudo usermod -aG nordvpn [username]`
+5. `sudo nordvpn login` then visit the link.
+6. After login, the redirect to terminal will probably fail. Right click to "copy link" on the "Connect" button on the Nord page and pass it into the `--callback` arg with quotes: `sudo nordvpn login --callback "nordvpn://login?action=login&exchange_token=your_token_here&status=done"`
+7. `sudo nordvpn connect Netherlands`
 
 ## I3 Mods
 ### Extra Keybinds
